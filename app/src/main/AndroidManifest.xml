@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_kvadrat_bez_texta"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashThem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".CatalogActivity"
+            android:label="@string/AllFitos"
+            android:parentActivityName="com.example.asus.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asus.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/Kalendar" />
+        <activity
+            android:name=".IzbranActivity"
+            android:label="@string/MyFitos" />
+        <activity
+            android:name=".PoiskActivity"
+            android:label="@string/Simptoms" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/About" />
+        <activity
+            android:name=".FlowerActivity"
+            android:label="@string/title_activity_flower" />
+        <activity android:name=".TreatmentActivity"
+            android:label="@string/Results" />
+        <activity android:name=".PoiskCatalogActivity"
+            android:label="@string/Poisk"/>
+        <activity android:name=".CalendarActivity2" />
+        <activity android:name=".NewTaskActivity" />
+        <activity android:name=".CalendarDelTaskActivity" />
+    </application>
+
+</manifest>

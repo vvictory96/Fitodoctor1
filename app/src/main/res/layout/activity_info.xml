@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.InfoActivity"
+    android:background="@color/primary_light"
+    android:orientation="vertical">
+
+   //подключаем toolbar
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="82dp"
+        android:textColor="@color/primary_text"
+        android:text="Назначение:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@id/textView"
+        android:layout_width="320dp"
+        android:layout_height="221dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="115dp"
+        android:textColor="@color/primary_text"
+        android:textSize="20dp"
+        android:text="Приложение Фитодоктор - это приложение, предназначенное для умной диагностики заболеваний комнатных растений. Оно с легкостью поможет Вам определить причину болезни и расскажет о методах борьбы с заболеванием."
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@id/textView"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/primary_text"
+        android:textSize="20dp"
+        android:text="Версия приложения: 1.0"/>
+
+ <TextView
+     android:id="@id/textView"
+     android:layout_width="320dp"
+     android:layout_height="50dp"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="380dp"
+     android:text="Разработчик: Виктория Власенко, МЗО-207М-19"
+     android:textColor="@color/primary_text"
+     android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@id/textView"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:textColor="@color/primary_text"
+        android:textSize="20dp"
+        android:text="Электронный адрес: fitodoctor@mail.ru"/>
+
+
+</RelativeLayout>

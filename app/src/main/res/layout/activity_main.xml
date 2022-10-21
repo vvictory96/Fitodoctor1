@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.MainActivity"
+    android:background="@color/primary_light">
+
+   //вставляем toolbar
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    //добавляем эмблему на главную страницу
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="68dp"/>
+
+    //кнопка Все растения
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:text="Все растения"
+        android:drawableTop="@drawable/icons8_catalog"
+        android:background="@color/primary_light"
+        android:textColor="@color/primary_text"
+        style="?android:attr/borderlessButtonStyle" /> //убираем тень вокруг кнопки
+
+    //кнопка Календарь
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:text="Календарь"
+        android:drawableTop="@drawable/icons8_calendar"
+        android:background="@color/primary_light"
+        android:textColor="@color/primary_text"
+        style="?android:attr/borderlessButtonStyle" /> //убираем тень вокруг кнопки
+
+    //кноака Мои растения
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="420dp"
+        android:text="Мои растения"
+        android:drawableTop="@drawable/icons8_heart"
+        android:background="@color/primary_light"
+        android:textColor="@color/primary_text"
+        style="?android:attr/borderlessButtonStyle" /> //убираем тень вокруг кнопки
+
+    //кнопка Поиск
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="280dp"
+        android:text="Поиск"
+        android:drawableTop="@drawable/icons8_search"
+        android:background="@color/primary_light"
+        android:textColor="@color/primary_text"
+        style="?android:attr/borderlessButtonStyle" /> //убираем тень вокруг кнопки
+
+    //кнопка Информация
+
+ <Button
+     android:id="@+id/button5"
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:layout_alignParentRight="true"
+     android:layout_marginEnd="13dp"
+     android:layout_marginRight="13dp"
+     android:layout_marginTop="3dp"
+     android:drawableTop="@drawable/icons8_info"
+     android:background="@color/primary"
+     style="?android:attr/borderlessButtonStyle"/> //убираем тень вокруг кнопки
+
+
+</RelativeLayout>

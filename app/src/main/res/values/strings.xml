@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Фитодоктор</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="not_fitos">Not Fitos</string>
+    <string name="nasv">Название</string>
+    <string name="flower">Flower</string>
+    <string name="title_activity_flower">FlowerActivity</string>
+    <string name="Simptoms">Симптомы</string>
+    <string name="AddToMy">Добавлено в Мои растения</string>
+    <string name="DelFromMy">Удалено из Моих растений</string>
+    <string name="diagnostika">Диагностика</string>
+    <string name="Not_USL">Условие поиска на задано</string>
+    <string name="Treatmnt">Лечение:</string>
+    <string name="symptom">Симптомы:</string>
+    <string name="desript">Описание:</string>
+    <string name="Results">Результаты</string>
+    <string name="About">О приложении</string>
+    <string name="MyFitos">Мои растения</string>
+    <string name="Kalendar">Календарь</string>
+    <string name="AllFitos">Все растения</string>
+    <string name="Poisk">Поиск</string>
+    <string name="ok">OK</string>
+
+    <string name="task.new.target.mon">Пн</string>
+    <string name="task.new.target.thu">Вт</string>
+    <string name="task.new.target.wen">Ср</string>
+    <string name="task.new.target.sut">Чт</string>
+    <string name="task.new.target.fr">Пт</string>
+    <string name="task.new.target.surth">Суб</string>
+    <string name="task.new.target.sun">Вс</string>
+
+    <string name="task.new.target.shletude">План</string>
+    <string name="task.new.target.repeat">Повторов</string>
+    <string name="task.new.target.each.dat">в день</string>
+    <string name="task.new.target.deadline">Срок</string>
+    <string name="task.new.target.days">дней</string>
+    <string name="task.new.target.toast.error">Выберите любой день из списка</string>
+
+    <string name="task.details.times.day" formatted="false">%s раз в день, в течении %s дней</string>
+
+    <string-array name="task_repeats">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="task.new.target.without.deadline">Без срока</string>
+    <string name="calndr">Календарь</string>
+    <string name="newtask">Новая задача</string>
+    <string name="addbutt">Добавить</string>
+    <string name="task.new.target.setdeadline">Задать срок</string>
+    <string name="target">target</string>
+    <string name="deleteitems">Удалить</string>
+    <string name="del_tasks">Удалить задачи</string>
+
+</resources>

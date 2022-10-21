@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_light"
+    android:orientation="vertical"
+    android:padding="6dip"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/nasv"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primary_text" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/flower"
+        android:src="@drawable/ic_launcher_background" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/desript"
+            android:textColor="@color/primary_text"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewDescript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:text="TextView"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/symptom"
+            android:textColor="@color/primary_text"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewSympt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:text="TextView"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Treatmnt"
+            android:textColor="@color/primary_text"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:text="TextView"
+            android:textColor="@color/primary_text" />
+
+</LinearLayout>

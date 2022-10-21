@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lv"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@color/primary_light"
+    android:padding="6dip"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="2"
+        android:contentDescription="@string/flower"
+        android:paddingLeft="0dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/nasv"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primary_text" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDelMy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:background="@color/primary_light"
+        app:srcCompat="@drawable/icons8_minus" />
+
+</LinearLayout>

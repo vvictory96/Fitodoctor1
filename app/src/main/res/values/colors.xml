@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388e3c</color>
+    <color name="primary_light">#ccff90</color>
+    <color name="accent">#8BC34A</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="light_text">#00ff00</color>
+
+
+
+    <color name="enter.button.color">#f2f2f2</color>
+
+    <color name="colorPrimary">#2276be</color>
+    <color name="colorPrimaryDark0">#035192</color>
+    <color name="colorPrimaryDark">#388e3c</color>
+    <color name="white">#ffffff</color>
+    <color name="colorGrayLight">#e9e9e9</color>
+
+    <color name="progressbar.empty.color">#f2f2f2</color>
+    <color name="progressbar.foreground.color">#01d21e</color>
+    <color name="progressbar.background.color">#fe0000</color>
+
+    <color name="circle.fifth.color">#5a9f1f</color>
+
+    <color name="round.color.center.circle">#dddddd</color>
+    <color name="round.color.center.circle.second">#f2f2f2</color>
+    <color name="round.color.center.circle.text">#4d4d4d</color>
+
+    <color name="dark.gray.text">#4c4c4c</color>
+
+    <color name="day_sel">#0000d6</color>
+    <color name="day_not_sel">#bebebe</color>
+
+</resources>

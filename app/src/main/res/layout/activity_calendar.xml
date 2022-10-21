@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.CalendarActivity"
+    android:background="@color/primary_light"
+    android:orientation="vertical">
+
+    //вставляем toolbar
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:background="@color/accent"
+        />
+
+
+    //отображаем календарь
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:theme="@style/CalenderViewCustom"
+            android:dateTextAppearance="@style/CalenderViewDateCustomText"
+            android:weekDayTextAppearance="@style/CalenderViewWeekCustomText">
+
+        </CalendarView>
+
+    </LinearLayout>
+
+</LinearLayout>
